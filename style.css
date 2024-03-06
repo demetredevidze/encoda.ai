@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+/* Styles for the labels */
+.label {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border: 2px solid #007BFF; /* Blue border */
+    border-radius: 25px; /* Rounded corners */
+    background-color: #f0f0f0; /* Light grey background */
+    cursor: pointer;
+}
+
+/* Styles for highlighting a label */
+.highlight {
+    background-color: #007BFF; /* Blue background */
+    color: #ffffff; /* White text */
+    border-color: #0056b3; /* Darker blue border */
+}
